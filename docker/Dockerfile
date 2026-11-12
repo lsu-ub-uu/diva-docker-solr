@@ -1,5 +1,5 @@
 # See README for information how solr coradefaultcore was created
-FROM solr:9.9.0-slim
+FROM solr:10.1.0-slim
 
 ADD coradefaultcore /opt/solr/server/solr/configsets/coradefaultcore 
 RUN ls -la /opt/solr/server/solr/configsets/coradefaultcore
